@@ -7,7 +7,7 @@ One Time Pad:
   
     -The key needed for this cryptographic technique has to be random, as long as the plaintext and never reused (to follow Shannon's perfect secrecy theorem). 
   
-    -The key can be generated through the program itself and can be a maximum of 4,294,967,295 characters long.
+    -The key can be generated through the program itself.
   
     -The Encryption/Decryption time is proportional to the key size. This issue will be addressed in the future.
   
@@ -17,5 +17,5 @@ Cyphertext Detector:
     -Distinguishes Cyphertext from Plaintext based on frequency analysis.
     
     -4 .txt files have been provided to test the Cyphertext/Plaintext Detector. 
-        There are 2 Plaintext files, 1 in English and 1 in Italian.
-        There are 2 Cyphertext files, 1 using a mono-alphabetic substitution cypher and 1 using a poly-alphabetic one.
+        There are 2 Plaintext files (random words): 1 in English and 1 in Italian.
+        There are 2 Cyphertext files (derived from the English Plaintext): 1 using a mono-alphabetic substitution cypher and 1 using a poly-alphabetic one.
